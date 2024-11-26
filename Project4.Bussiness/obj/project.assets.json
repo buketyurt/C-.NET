@@ -1,0 +1,125 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "Project4.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Project4.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Project4.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Project4.DataAccess.dll": {}
+        }
+      },
+      "Project4.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Project4.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Project4.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Project4.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../Project4.DataAccess/Project4.DataAccess.csproj",
+      "msbuildProject": "../Project4.DataAccess/Project4.DataAccess.csproj"
+    },
+    "Project4.Entities/1.0.0": {
+      "type": "project",
+      "path": "../Project4.Entities/Project4.Entities.csproj",
+      "msbuildProject": "../Project4.Entities/Project4.Entities.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "Project4.DataAccess >= 1.0.0",
+      "Project4.Entities >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\buketyurt\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\buketyurt\\source\\repos\\C-.Net\\Project4.Bussiness\\Project4.Bussiness.csproj",
+      "projectName": "Project4.Bussiness",
+      "projectPath": "C:\\Users\\buketyurt\\source\\repos\\C-.Net\\Project4.Bussiness\\Project4.Bussiness.csproj",
+      "packagesPath": "C:\\Users\\buketyurt\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\buketyurt\\source\\repos\\C-.Net\\Project4.Bussiness\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\buketyurt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.ticimax.biz/nuget/internal-nuget": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "C:\\Users\\buketyurt\\source\\repos\\C-.Net\\Project4.DataAccess\\Project4.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\buketyurt\\source\\repos\\C-.Net\\Project4.DataAccess\\Project4.DataAccess.csproj"
+            },
+            "C:\\Users\\buketyurt\\source\\repos\\C-.Net\\Project4.Entities\\Project4.Entities.csproj": {
+              "projectPath": "C:\\Users\\buketyurt\\source\\repos\\C-.Net\\Project4.Entities\\Project4.Entities.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

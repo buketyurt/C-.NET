@@ -1,0 +1,15 @@
+C:\Users\buketyurt\source\repos\Project1\Classes2\bin\Debug\net5.0\Classes2.exe
+C:\Users\buketyurt\source\repos\Project1\Classes2\bin\Debug\net5.0\Classes2.deps.json
+C:\Users\buketyurt\source\repos\Project1\Classes2\bin\Debug\net5.0\Classes2.runtimeconfig.json
+C:\Users\buketyurt\source\repos\Project1\Classes2\bin\Debug\net5.0\Classes2.runtimeconfig.dev.json
+C:\Users\buketyurt\source\repos\Project1\Classes2\bin\Debug\net5.0\Classes2.dll
+C:\Users\buketyurt\source\repos\Project1\Classes2\bin\Debug\net5.0\Classes2.pdb
+C:\Users\buketyurt\source\repos\Project1\Classes2\obj\Debug\net5.0\Classes2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\buketyurt\source\repos\Project1\Classes2\obj\Debug\net5.0\Classes2.AssemblyInfoInputs.cache
+C:\Users\buketyurt\source\repos\Project1\Classes2\obj\Debug\net5.0\Classes2.AssemblyInfo.cs
+C:\Users\buketyurt\source\repos\Project1\Classes2\obj\Debug\net5.0\Classes2.csproj.CoreCompileInputs.cache
+C:\Users\buketyurt\source\repos\Project1\Classes2\obj\Debug\net5.0\Classes2.dll
+C:\Users\buketyurt\source\repos\Project1\Classes2\obj\Debug\net5.0\refint\Classes2.dll
+C:\Users\buketyurt\source\repos\Project1\Classes2\obj\Debug\net5.0\Classes2.pdb
+C:\Users\buketyurt\source\repos\Project1\Classes2\obj\Debug\net5.0\Classes2.genruntimeconfig.cache
+C:\Users\buketyurt\source\repos\Project1\Classes2\obj\Debug\net5.0\ref\Classes2.dll

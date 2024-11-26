@@ -1,0 +1,72 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Project4.ConsoleUI/1.0.0": {
+        "dependencies": {
+          "Project4.Bussiness": "1.0.0"
+        },
+        "runtime": {
+          "Project4.ConsoleUI.dll": {}
+        }
+      },
+      "Project4.Bussiness/1.0.0": {
+        "dependencies": {
+          "Project4.DataAccess": "1.0.0",
+          "Project4.Entities": "1.0.0"
+        },
+        "runtime": {
+          "Project4.Bussiness.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Project4.DataAccess/1.0.0": {
+        "dependencies": {
+          "Project4.Entities": "1.0.0"
+        },
+        "runtime": {
+          "Project4.DataAccess.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Project4.Entities/1.0.0": {
+        "runtime": {
+          "Project4.Entities.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Project4.ConsoleUI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Project4.Bussiness/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Project4.DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Project4.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
