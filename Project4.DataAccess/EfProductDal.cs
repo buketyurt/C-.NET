@@ -9,17 +9,17 @@ namespace Project4.DataAccess
 {
     public class EfProductDal : IProductDal
     {
-        private List<Product> _products;
+        //private List<Product> _products;
         public EfProductDal()
         {
-            _products = new List<Product>
-            {
-                new Product{ProductId = 1, ProductName = "Acer ef Bilgisayar", QuantityPerUnit = "32 GB rAM", UnitInStock = 2, UnitPrice = 1000},
-                new Product{ProductId = 2, ProductName = "Asus ef Bilgisayar", QuantityPerUnit = "32 GB rAM", UnitInStock = 1, UnitPrice = 1000},
-                new Product{ProductId = 3, ProductName = "HP ef Bilgisayar", QuantityPerUnit = "32 GB rAM", UnitInStock = 0, UnitPrice = 1000},
-                new Product{ProductId = 4, ProductName = "Mac ef Bilgisayar", QuantityPerUnit = "32 GB rAM", UnitInStock = 3, UnitPrice = 1000},
-                new Product{ProductId = 5, ProductName = "Dell ef Bilgisayar", QuantityPerUnit = "32 GB rAM", UnitInStock = 10, UnitPrice = 1000},
-            };
+            //_products = new List<Product>
+            //{
+            //    new Product{ProductId = 1, ProductName = "Acer ef Bilgisayar", QuantityPerUnit = "32 GB rAM", UnitInStock = 2, UnitPrice = 1000},
+            //    new Product{ProductId = 2, ProductName = "Asus ef Bilgisayar", QuantityPerUnit = "32 GB rAM", UnitInStock = 1, UnitPrice = 1000},
+            //    new Product{ProductId = 3, ProductName = "HP ef Bilgisayar", QuantityPerUnit = "32 GB rAM", UnitInStock = 0, UnitPrice = 1000},
+            //    new Product{ProductId = 4, ProductName = "Mac ef Bilgisayar", QuantityPerUnit = "32 GB rAM", UnitInStock = 3, UnitPrice = 1000},
+            //    new Product{ProductId = 5, ProductName = "Dell ef Bilgisayar", QuantityPerUnit = "32 GB rAM", UnitInStock = 10, UnitPrice = 1000},
+            //};
         }
 
         public List<Product> GetByName(string name)
@@ -29,27 +29,53 @@ namespace Project4.DataAccess
 
         public void Add(Product product)
         {
-        Console.WriteLine("Ef ile eklendi");
+            using (NorthwindContext context = new NorthwindContext())
+            {
+                context.Products.Add(product);
+                context.SaveChanges();
+            }
         }
 
         public List<Product> GetAll()
         {
-            return _products;
+            using (NorthwindContext context = new NorthwindContext())
+            {
+                return context.Products.ToList(); //garbage collectoru bekleme bellekten hızlıca sil
+            }
+            
         }
 
-        public List<Product> GetById(int id)
+        public Product GetById(int id)
         {
-            throw new NotImplementedException();
+            using (NorthwindContext context = new NorthwindContext())
+            {
+                return context.Products.FirstOrDefault(p => p.ProductId == id); //garbage collectoru bekleme bellekten hızlıca sil
+                //singleordefaultta eğer tek id düşmezse hata veriyor
+                //firstordefault direkt ilkini veriyor
+            }
         }
 
-        public void Remove(Product product)
+        public void Remove(Product product)//delete
         {
-            throw new NotImplementedException();
+            using (NorthwindContext context = new NorthwindContext())
+            {
+                context.Products.Remove(context.Products.SingleOrDefault(p=>p.ProductId == product.ProductId));
+                context.SaveChanges();
+            }
         }
 
         public void Update(Product product)
         {
-            throw new NotImplementedException();
+            using (NorthwindContext context = new NorthwindContext())
+            {
+                var productToUpdate = context.Products.FirstOrDefault(p => p.ProductId == product.ProductId);
+                productToUpdate.ProductName = product.ProductName;
+                productToUpdate.QuantityPerUnit = product.QuantityPerUnit;
+                productToUpdate.UnitPrice = product.UnitPrice;
+                productToUpdate.UnitsInStock=product.UnitsInStock;
+                productToUpdate.CategoryId = product.CategoryId;
+                context.SaveChanges();
+            }
         }
     }
 }

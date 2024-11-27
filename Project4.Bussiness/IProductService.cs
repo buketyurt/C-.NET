@@ -6,8 +6,10 @@ namespace Project4.Bussiness
     public interface IProductService
     {
         List<Product> GetAll();
+        Product GetById(int id);
         void Add(Product product);
-        List<Product> GetById(int id);
+        void Remove(Product  product);
+        void Update (Product product);
         decimal CalculateProfitById(int id);
     }
 }

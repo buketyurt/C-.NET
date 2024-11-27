@@ -20,3 +20,4 @@ C:\Users\buketyurt\source\repos\C-.Net\Project4.Entities\obj\Debug\net5.0\Projec
 C:\Users\buketyurt\source\repos\C-.Net\Project4.Entities\obj\Debug\net5.0\refint\Project4.Entities.dll
 C:\Users\buketyurt\source\repos\C-.Net\Project4.Entities\obj\Debug\net5.0\Project4.Entities.pdb
 C:\Users\buketyurt\source\repos\C-.Net\Project4.Entities\obj\Debug\net5.0\ref\Project4.Entities.dll
+C:\Users\buketyurt\source\repos\C-.Net\Project4.Entities\obj\Debug\net5.0\Project4.Entities.sourcelink.json

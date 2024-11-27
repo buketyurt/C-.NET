@@ -28,3 +28,4 @@ C:\Users\buketyurt\source\repos\C-.Net\Project4.DataAccess\obj\Debug\net5.0\Proj
 C:\Users\buketyurt\source\repos\C-.Net\Project4.DataAccess\obj\Debug\net5.0\refint\Project4.DataAccess.dll
 C:\Users\buketyurt\source\repos\C-.Net\Project4.DataAccess\obj\Debug\net5.0\Project4.DataAccess.pdb
 C:\Users\buketyurt\source\repos\C-.Net\Project4.DataAccess\obj\Debug\net5.0\ref\Project4.DataAccess.dll
+C:\Users\buketyurt\source\repos\C-.Net\Project4.DataAccess\obj\Debug\net5.0\Project4.DataAccess.sourcelink.json

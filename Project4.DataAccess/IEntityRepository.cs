@@ -11,7 +11,7 @@ namespace Project4.DataAccess
     public interface IEntityRepository<T> where T : class,IEntity, new()
     {
         List<T> GetAll();
-        List<T> GetById(int id);
+        T GetById(int id);
         List<T> GetByName(string name);
         void Add(T product);
         

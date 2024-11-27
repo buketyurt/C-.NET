@@ -14,11 +14,11 @@ namespace Project4.DataAccess
         {
             _products = new List<Product>
             {
-                new Product{ProductId = 1, ProductName = "Acer X Bilgisayar", QuantityPerUnit = "32 GB rAM", UnitInStock = 2, UnitPrice = 1000},
-                new Product{ProductId = 2, ProductName = "Asus X Bilgisayar", QuantityPerUnit = "32 GB rAM", UnitInStock = 1, UnitPrice = 1000},
-                new Product{ProductId = 3, ProductName = "HP X Bilgisayar", QuantityPerUnit = "32 GB rAM", UnitInStock = 0, UnitPrice = 1000},
-                new Product{ProductId = 4, ProductName = "Mac X Bilgisayar", QuantityPerUnit = "32 GB rAM", UnitInStock = 3, UnitPrice = 1000},
-                new Product{ProductId = 5, ProductName = "Dell X Bilgisayar", QuantityPerUnit = "32 GB rAM", UnitInStock = 10, UnitPrice = 1000},
+                new Product{ProductId = 1, ProductName = "Acer X Bilgisayar", QuantityPerUnit = "32 GB rAM", UnitsInStock = 2, UnitPrice = 1000},
+                new Product{ProductId = 2, ProductName = "Asus X Bilgisayar", QuantityPerUnit = "32 GB rAM", UnitsInStock = 1, UnitPrice = 1000},
+                new Product{ProductId = 3, ProductName = "HP X Bilgisayar", QuantityPerUnit = "32 GB rAM", UnitsInStock = 0, UnitPrice = 1000},
+                new Product{ProductId = 4, ProductName = "Mac X Bilgisayar", QuantityPerUnit = "32 GB rAM", UnitsInStock = 3, UnitPrice = 1000},
+                new Product{ProductId = 5, ProductName = "Dell X Bilgisayar", QuantityPerUnit = "32 GB rAM", UnitsInStock = 10, UnitPrice = 1000},
             };
         }
 
@@ -38,9 +38,9 @@ namespace Project4.DataAccess
             return _products;
         }
 
-        public List<Product> GetById(int id)
+        public Product GetById(int id)
         {
-            return _products.Where(p => p.ProductId == id).ToList();
+            throw new NotImplementedException();
 
         }
 

@@ -27,16 +27,17 @@ namespace Project4.Bussiness
             _productDal.Add(product);
         }
 
-        public List<Product> GetById(int id)
+        public Product GetById(int id)
         {
             return _productDal.GetById(id);
         }
 
         public decimal CalculateProfitById(int id)
         {
-            Product product = _productDal.GetById(id).FirstOrDefault();
-            decimal result = product.UnitInStock * product.UnitPrice;
-            return result;
+            throw new NotImplementedException();
+            //Product product = _productDal.GetById(id).FirstOrDefault();
+            //decimal result = product.UnitInStock * product.UnitPrice;
+            //return result;
         }
 
         public List<Product> GetByName(string name)
@@ -44,6 +45,10 @@ namespace Project4.Bussiness
             return _productDal.GetByName(name);
         }
 
+        public void Remove(Product product)
+        {
+            _productDal.Remove(product);
+        }
         public List<Product> GetAll()
         {
             
@@ -51,5 +56,9 @@ namespace Project4.Bussiness
             return _productDal.GetAll();
         }
 
+        public void Update(Product product)
+        {
+            _productDal.Update(product);
+        }
     }
 }

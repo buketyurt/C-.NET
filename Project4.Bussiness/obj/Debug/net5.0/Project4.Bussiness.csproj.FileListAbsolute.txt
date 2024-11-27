@@ -32,3 +32,4 @@ C:\Users\buketyurt\source\repos\C-.Net\Project4.Bussiness\obj\Debug\net5.0\Proje
 C:\Users\buketyurt\source\repos\C-.Net\Project4.Bussiness\obj\Debug\net5.0\refint\Project4.Bussiness.dll
 C:\Users\buketyurt\source\repos\C-.Net\Project4.Bussiness\obj\Debug\net5.0\Project4.Bussiness.pdb
 C:\Users\buketyurt\source\repos\C-.Net\Project4.Bussiness\obj\Debug\net5.0\ref\Project4.Bussiness.dll
+C:\Users\buketyurt\source\repos\C-.Net\Project4.Bussiness\obj\Debug\net5.0\Project4.Bussiness.sourcelink.json
