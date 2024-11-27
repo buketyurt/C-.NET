@@ -15,6 +15,10 @@ namespace Project4.ConsoleUI
 
             List<Product> products = new List<Product>();
             List<Product> productsNames = new List<Product>();
+            foreach (var product in productManager.GetAllAsync().Result)
+            {
+                Console.WriteLine(product.ProductName);
+            }
 
             //products = productManager.GetById(4);
             //productsNames = productManager.GetByName("Mac X Bilgisayar");
@@ -43,10 +47,10 @@ namespace Project4.ConsoleUI
             //    UnitsInStock = 50,
             //    UnitPrice = 1000});
 
-            foreach (var product in productManager.GetAll())
+       /*     foreach (var product in productManager.GetAll())
             {
                 Console.WriteLine(product.ProductName);
-            }
+            }*/
             //try
             //{
             //    productManager.Add(new Product
@@ -60,11 +64,11 @@ namespace Project4.ConsoleUI
             //    Console.WriteLine(e.Message);
             
             //}
-            PersonalManager personalManager = new PersonalManager(new EfPersonalDal());
+          /* PersonalManager personalManager = new PersonalManager(new EfPersonalDal());
             foreach (var personel in personalManager.GetAll())
             {
                 Console.WriteLine("{0} / {1} / {2}", personel.Id, personel.Name, personel.Surname);
-            }
+            }*/
         }
     }
 }

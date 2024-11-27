@@ -53,5 +53,35 @@ namespace Project4.DataAccess
         {
             throw new NotImplementedException();
         }
+
+        public Task<List<Product>> GetAllAsync()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<Product> GetByIdAsync(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<List<Product>> GetByNameAsync(string name)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task AddAsync(Product product)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task UpdateAsync(Product product)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task RemoveAsync(Product product)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

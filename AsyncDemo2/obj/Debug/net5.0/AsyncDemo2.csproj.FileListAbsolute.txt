@@ -1,0 +1,16 @@
+C:\Users\buketyurt\source\repos\C-.Net\AsyncDemo2\bin\Debug\net5.0\AsyncDemo2.exe
+C:\Users\buketyurt\source\repos\C-.Net\AsyncDemo2\bin\Debug\net5.0\AsyncDemo2.deps.json
+C:\Users\buketyurt\source\repos\C-.Net\AsyncDemo2\bin\Debug\net5.0\AsyncDemo2.runtimeconfig.json
+C:\Users\buketyurt\source\repos\C-.Net\AsyncDemo2\bin\Debug\net5.0\AsyncDemo2.runtimeconfig.dev.json
+C:\Users\buketyurt\source\repos\C-.Net\AsyncDemo2\bin\Debug\net5.0\AsyncDemo2.dll
+C:\Users\buketyurt\source\repos\C-.Net\AsyncDemo2\bin\Debug\net5.0\AsyncDemo2.pdb
+C:\Users\buketyurt\source\repos\C-.Net\AsyncDemo2\obj\Debug\net5.0\AsyncDemo2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\buketyurt\source\repos\C-.Net\AsyncDemo2\obj\Debug\net5.0\AsyncDemo2.AssemblyInfoInputs.cache
+C:\Users\buketyurt\source\repos\C-.Net\AsyncDemo2\obj\Debug\net5.0\AsyncDemo2.AssemblyInfo.cs
+C:\Users\buketyurt\source\repos\C-.Net\AsyncDemo2\obj\Debug\net5.0\AsyncDemo2.csproj.CoreCompileInputs.cache
+C:\Users\buketyurt\source\repos\C-.Net\AsyncDemo2\obj\Debug\net5.0\AsyncDemo2.sourcelink.json
+C:\Users\buketyurt\source\repos\C-.Net\AsyncDemo2\obj\Debug\net5.0\AsyncDemo2.dll
+C:\Users\buketyurt\source\repos\C-.Net\AsyncDemo2\obj\Debug\net5.0\refint\AsyncDemo2.dll
+C:\Users\buketyurt\source\repos\C-.Net\AsyncDemo2\obj\Debug\net5.0\AsyncDemo2.pdb
+C:\Users\buketyurt\source\repos\C-.Net\AsyncDemo2\obj\Debug\net5.0\AsyncDemo2.genruntimeconfig.cache
+C:\Users\buketyurt\source\repos\C-.Net\AsyncDemo2\obj\Debug\net5.0\ref\AsyncDemo2.dll

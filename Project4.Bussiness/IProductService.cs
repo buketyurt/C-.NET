@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 using Project4.Entities;
 
 namespace Project4.Bussiness
@@ -11,5 +12,7 @@ namespace Project4.Bussiness
         void Remove(Product  product);
         void Update (Product product);
         decimal CalculateProfitById(int id);
+        Task<List<Product>> GetAllAsync();
+
     }
 }

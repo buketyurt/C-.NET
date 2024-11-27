@@ -60,5 +60,10 @@ namespace Project4.Bussiness
         {
             _productDal.Update(product);
         }
+
+        public Task<List<Product>> GetAllAsync()
+        {
+            return _productDal.GetAllAsync();
+        }
     }
 }
